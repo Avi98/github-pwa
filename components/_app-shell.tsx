@@ -18,6 +18,7 @@ const AppShell:FC<any> =() =>{
           <button className='icon'>
             <span className='circle-unread' />
             <IoMdNotificationsOutline />
+            
           </button>
         </header>
         <style 
