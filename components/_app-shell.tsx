@@ -20,7 +20,11 @@ const AppShell:FC<any> =() =>{
             <IoMdNotificationsOutline />
           </button>
         </header>
-        <style jsx={true} global>
+        <style 
+        // @ts-ignore
+        jsx={true} 
+        global
+        >
           {`
             body {
               margin: 0px;
