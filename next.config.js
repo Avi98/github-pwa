@@ -42,7 +42,7 @@ module.exports = {
       runtimeCaching: [
         {
           urlPattern: /^http?.*/,
-          handler: "CacheFirst",
+          handler: "Stalew",
           options: {
             cacheName: "offlineCache",
             expiration: {

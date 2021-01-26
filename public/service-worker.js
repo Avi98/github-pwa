@@ -4514,39 +4514,35 @@ self.addEventListener('message', event => {
  */
 
 precacheAndRoute([{
-  "url": "init-server.js.js",
-  "revision": "2c7855959322fdc95a1ba8ad1084957a"
+  "url": "_next/static/chunks/0.js",
+  "revision": "46d8b88d976e1facf05da61a9c53db01"
 }, {
-  "url": "on-error-server.js.js",
-  "revision": "8119bb24b59a88bcf7dd3e93cb766280"
+  "url": "_next/static/chunks/amp.js",
+  "revision": "142c5ec656e215d22eacc4ebfab0c25c"
 }, {
-  "url": "pages-manifest.json",
-  "revision": "8705c8702e9cf02afbd8fca3f1c7b830"
+  "url": "_next/static/chunks/pages/_app.js",
+  "revision": "e5ea5287e11896e11973c02bf0765bc8"
 }, {
-  "url": "pages/_app.js",
-  "revision": "e659dfe86488a80f52590ac221e1f0ca"
+  "url": "_next/static/chunks/pages/_error.js",
+  "revision": "d4e6bc3407d4a105de840a0551a96abc"
 }, {
-  "url": "pages/_document.js",
-  "revision": "38b87545e0b12952df85d2c820476454"
+  "url": "_next/static/chunks/polyfills.js",
+  "revision": "57ce246b88d20330432065ad24b894fe"
 }, {
-  "url": "pages/_error.js",
-  "revision": "10ea43470e3121eb7cab1f19de09aa06"
+  "url": "_next/static/chunks/react-refresh.js",
+  "revision": "b579ea82dc4f58e1c3c63f2bb7108893"
 }, {
-  "url": "pages/index.js",
-  "revision": "82e63afe30f63afb865f15998745fad8"
+  "url": "_next/static/chunks/webpack.js",
+  "revision": "141c7328df514c21c99f21396111320b"
 }, {
-  "url": "ssr-module-cache.js",
-  "revision": "8c142574737218be9e3e11c924a99177"
-}], {});
-registerRoute(/^http?.*/, new CacheFirst({
-  "cacheName": "offlineCache",
-  plugins: [new ExpirationPlugin({
-    maxEntries: 200,
-    purgeOnQuotaError: true
-  })]
-}), 'GET');
-//# sourceMappingURL=service-worker.js.map
-
+  "url": "_next/static/development/_buildManifest.js",
+  "revision": "1562d482cfcb28e6f9e7ee6ce57cba31"
+}, {
+  "url": "_next/static/development/_ssgManifest.js",
+  "revision": "abee47769bf307639ace4945f9cfd4ff"
+}, {
+  "url": "_next/static/webpack/c06af379e98de4ffb62c.hot-update.json",
+  "revision": null
 }], {});
 registerRoute(/^http?.*/, new CacheFirst({
   "cacheName": "offlineCache",
